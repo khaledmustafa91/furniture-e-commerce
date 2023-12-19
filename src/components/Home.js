@@ -28,7 +28,12 @@ const Home = () => {
   }, []);
   return (
     <>
-      <MainHero />
+      <MainHero
+        title={['Modern Interior ', <span clsas="d-block">Design Studio</span>]}
+        description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                  aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
+                  tristique."
+      />
 
       {/* Start Product Section */}
       <div className="product-section">
