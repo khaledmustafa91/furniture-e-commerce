@@ -6,9 +6,9 @@ import { useEffect, useState } from 'react';
 import Help from './Home/Help';
 import WhyChooseUs from './Home/WhyChooseUs';
 import Testimonials from './Home/Testimonials';
-import Blogs from './Home/Blogs';
 import MainHero from './MainHero';
 import FeaturedProductsList from './FeaturedProductsList';
+import FeaturedBlogs from './Home/FeaturedBlogs';
 const Home = () => {
   const [products, setProducts] = useState(null);
 
@@ -71,7 +71,7 @@ const Home = () => {
       </div>
       {/* End Popular Product */}
       {/* <Testimonials /> */}
-      <Blogs />
+      <FeaturedBlogs />
     </>
   );
 };
