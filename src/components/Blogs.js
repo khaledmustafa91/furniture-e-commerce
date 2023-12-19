@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import MainHero from './MainHero';
 import BlogsList from './BlogsList';
 
-const Blog = () => {
+const Blogs = () => {
   const [blogs, setBlogs] = useState(null);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Blogs;
