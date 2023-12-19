@@ -116,5 +116,36 @@
       "id": 6,
       "featured": false
     }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Lawson Arnold",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/nahizdl9hs7d41pcv3cl.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jeremy Walker",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/lqg5ygu91ymcxgkel2ha.jpg"
+
+    },
+    {
+      "id": 3,
+      "name": "Patrik White",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/b0dfqkghv1c62wr7ommy.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kathryn Ryan",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/vyaq6ir2y821wfkmez5i.jpg"
+    }
   ]
 }
