@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Nordic Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 50,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890763/Furniture-e-commerce/qm7has6njhbl7lwup4bt.png",
+      "featured": true
+    },
+
+    {
+      "id": 2,
+      "title": "Kruzo Aero Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "featured": true
+    },  
+    {
+      "id": 3,
+      "title": "Ergonomic Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/rm2ecbamrwppokzoyazn.png",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Nordic Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Kruzo Aero Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890763/Furniture-e-commerce/qm7has6njhbl7lwup4bt.png",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Kruzo Aero Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "featured": false
+    },  
+    {
+      "id": 7,
+      "title": "Ergonomic Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/rm2ecbamrwppokzoyazn.png",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Nordic Chair",
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
+      "price": 78,
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "featured": false
+    }
+  ],
+  "blogs": [
+    {
+      "title": "First Time Home Owner Ideas",
+      "author": "Kristin Watson",
+      "date": "Dec 19, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 1,
+      "featured": true
+    },
+    {
+      "title": "How To Keep Your Furniture Clean",
+      "author": "Robert Fox",
+      "date": "Dec 15, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 2,
+      "featured": true
+    },
+    {
+      "title": "Small Space Furniture Apartment Ideas",
+      "author": "Kristin Watson",
+      "date": "Dec 17, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 3,
+      "featured": true
+    },
+    {
+      "title": "First Time Home Owner Ideas",
+      "author": "Kristin Watson",
+      "date": "Dec 12, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 4,
+      "featured": false
+    },
+
+    {
+      "title": "How To Keep Your Furniture Clean",
+      "author": "Robert Fox",
+      "date": "Dec 15, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 5,
+      "featured": false
+    },
+    {
+      "title": "Small Space Furniture Apartment Ideas",
+      "author": "Kristin Watson",
+      "date": "Dec 17, 2021",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "id": 6,
+      "featured": false
+    }
+  ]
+}
