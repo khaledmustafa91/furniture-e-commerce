@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
+// import './js/tiny-slider';
+// import './js/custom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
