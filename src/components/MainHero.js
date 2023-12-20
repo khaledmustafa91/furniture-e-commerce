@@ -11,11 +11,7 @@ const MainHero = ({ title, description }) => {
             <div className="col-lg-5">
               <div className="intro-excerpt">
                 <h1>{title}</h1>
-                <p className="mb-4">
-                  Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                  aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
-                  tristique.
-                </p>
+                <p className="mb-4">{description}</p>
                 <p>
                   <Link to="/shop" className="btn btn-secondary me-2">
                     Shop Now
