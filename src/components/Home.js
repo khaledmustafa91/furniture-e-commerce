@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </div>
       {/* End Popular Product */}
-      {/* <Testimonials /> */}
+      <Testimonials />
       <FeaturedBlogs />
     </>
   );
