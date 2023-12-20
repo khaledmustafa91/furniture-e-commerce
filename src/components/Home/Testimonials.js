@@ -8,31 +8,6 @@ const Testimonials = () => {
     infiniteLoop: true,
     showThumbs: false,
     showStatus: false,
-    // renderIndicator: (clickHandler, hasPrev, label) => {
-    //   return <span className="fa fa-chevron-left" />;
-    // },
-    // renderArrowPrev: (clickHandler, hasPrev, label) => {
-    //   return (
-    //     <span
-    //       className="prev arrows"
-    //       data-controls="prev"
-    //       onClick={clickHandler}
-    //     >
-    //       <span className="fa fa-chevron-left" />
-    //     </span>
-    //   );
-    // },
-    // renderArrowNext: (clickHandler, hasNext, label) => {
-    //   return (
-    //     <span
-    //       className="next arrows"
-    //       data-controls="next"
-    //       onClick={clickHandler}
-    //     >
-    //       <span className="fa fa-chevron-right" />
-    //     </span>
-    //   );
-    // },
   };
   return (
     <>
