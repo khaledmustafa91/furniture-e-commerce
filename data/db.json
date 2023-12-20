@@ -71,7 +71,7 @@
       "title": "First Time Home Owner Ideas",
       "author": "Kristin Watson",
       "date": "Dec 19, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/l5rfx4v8qb4ihdlsg6ix.jpg",
       "id": 1,
       "featured": true
     },
@@ -79,7 +79,7 @@
       "title": "How To Keep Your Furniture Clean",
       "author": "Robert Fox",
       "date": "Dec 15, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/lylxg11ruxh1cciv5oeq.jpg",
       "id": 2,
       "featured": true
     },
@@ -87,7 +87,7 @@
       "title": "Small Space Furniture Apartment Ideas",
       "author": "Kristin Watson",
       "date": "Dec 17, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/wbdbbvqmwt9rzibusrde.jpg",
       "id": 3,
       "featured": true
     },
@@ -95,7 +95,7 @@
       "title": "First Time Home Owner Ideas",
       "author": "Kristin Watson",
       "date": "Dec 12, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/l5rfx4v8qb4ihdlsg6ix.jpg",
       "id": 4,
       "featured": false
     },
@@ -104,7 +104,7 @@
       "title": "How To Keep Your Furniture Clean",
       "author": "Robert Fox",
       "date": "Dec 15, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/lylxg11ruxh1cciv5oeq.jpg",
       "id": 5,
       "featured": false
     },
@@ -112,9 +112,40 @@
       "title": "Small Space Furniture Apartment Ideas",
       "author": "Kristin Watson",
       "date": "Dec 17, 2021",
-      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702980608/Furniture-e-commerce/blogs/wbdbbvqmwt9rzibusrde.jpg",
       "id": 6,
       "featured": false
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Lawson Arnold",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/nahizdl9hs7d41pcv3cl.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jeremy Walker",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/lqg5ygu91ymcxgkel2ha.jpg"
+
+    },
+    {
+      "id": 3,
+      "name": "Patrik White",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/b0dfqkghv1c62wr7ommy.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kathryn Ryan",
+      "position": "CEO, Founder, Atty.",
+      "bio": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702975891/Furniture-e-commerce/team/vyaq6ir2y821wfkmez5i.jpg"
     }
   ]
 }
