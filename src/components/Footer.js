@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SofaImage from '../assets/images/sofa.png';
 const Footer = () => {
   return (
@@ -82,16 +83,17 @@ const Footer = () => {
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">About us</a>
+                      <Link to="/about_us">About us</Link>
+                    </li>
+
+                    <li>
+                      <Link to="/services">Services</Link>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <Link to="/blogs">Blog</Link>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact us</a>
+                      <Link to="/contact_us">Contact us</Link>
                     </li>
                   </ul>
                 </div>
