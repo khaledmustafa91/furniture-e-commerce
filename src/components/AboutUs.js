@@ -1,4 +1,5 @@
 import Team from './AboutUs/Team';
+import Testimonials from './Home/Testimonials';
 import WhyChooseUs from './Home/WhyChooseUs';
 import MainHero from './MainHero';
 
@@ -11,6 +12,7 @@ const AboutUs = () => {
       />
       <WhyChooseUs />
       <Team />
+      <Testimonials />
     </>
   );
 };
