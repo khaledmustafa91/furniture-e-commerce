@@ -9,6 +9,7 @@ import Testimonials from './Home/Testimonials';
 import MainHero from './MainHero';
 import FeaturedProductsList from './FeaturedProductsList';
 import FeaturedBlogs from './Home/FeaturedBlogs';
+import ProductList from './ProductList';
 const Home = () => {
   const [products, setProducts] = useState(null);
 
@@ -43,29 +44,7 @@ const Home = () => {
       <div className="popular-product">
         <div className="container">
           <div className="row">
-            {products &&
-              products.map((product) => {
-                return (
-                  <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <div className="product-item-sm d-flex">
-                      <div className="thumbnail">
-                        <img
-                          src={product.photo}
-                          alt="Image"
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className="pt-3">
-                        <h3>{product.title}</h3>
-                        <p>{product.description}</p>
-                        <p>
-                          <Link to={`/products/${product.id}`}>Read More</Link>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
+            <ProductList products={products} HomePage={true} />
           </div>
         </div>
       </div>
