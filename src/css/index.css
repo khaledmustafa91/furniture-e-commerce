@@ -781,7 +781,7 @@ textarea {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: rgba(59, 93, 80, 0.1) !important;
+  background: #000000 !important /* rgba(59, 93, 80, 0.1) !important; */;
   color: #000000 !important;
 }
 .carousel.carousel-slider .control-arrow:hover{background:#3b5d50 !important}
