@@ -76,9 +76,9 @@ a {
       opacity: 1; }
       .custom-navbar .custom-navbar-nav li a:hover:before {
         width: calc(100% - 16px); }
-  .custom-navbar .custom-navbar-nav li.active a {
+  .custom-navbar .custom-navbar-nav li .active {
     opacity: 1; }
-    .custom-navbar .custom-navbar-nav li.active a:before {
+    .custom-navbar .custom-navbar-nav li .active:before {
       width: calc(100% - 16px); }
   .custom-navbar .custom-navbar-cta {
     margin-left: 0 !important;

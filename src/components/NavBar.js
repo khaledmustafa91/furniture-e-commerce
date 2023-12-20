@@ -1,6 +1,6 @@
 import UserImage from '../assets/images/user.svg';
 import CartImage from '../assets/images/cart.svg';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -11,9 +11,9 @@ const NavBar = () => {
         arial-label="Furni navigation bar"
       >
         <div className="container">
-          <Link to="/" className="navbar-brand">
+          <NavLink activeClassName="active" to="/" className="navbar-brand">
             Furni<span>.</span>
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,47 +27,71 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarsFurni">
             <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-              <li className="nav-item active">
-                <Link to="/" className="nav-link">
+              <li className="nav-item">
+                <NavLink activeClassName="active" to="/" className="nav-link">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/shop" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/shop"
+                  className="nav-link"
+                >
                   Shop
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/about_us" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/about_us"
+                  className="nav-link"
+                >
                   About us
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/services" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/services"
+                  className="nav-link"
+                >
                   Services
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/blogs" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/blogs"
+                  className="nav-link"
+                >
                   Blog
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/contact_us" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/contact_us"
+                  className="nav-link"
+                >
                   Contact us
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
               <li>
-                <Link to="/" className="nav-link">
+                <NavLink activeClassName="active" to="/" className="nav-link">
                   <img src={UserImage} alt="User" />
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/cart" className="nav-link">
+                <NavLink
+                  activeClassName="active"
+                  to="/cart"
+                  className="nav-link"
+                >
                   <img src={CartImage} alt="Cart" />
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
