@@ -12,10 +12,9 @@ const NavBar = () => {
       >
         <div className="container">
           <NavLink
-            className={`nav-link ${(navData) =>
+            className={`nav-link navbar-brand ${(navData) =>
               navData.isActive ? 'active-style' : 'none'}`}
             to="/"
-            className="navbar-brand"
           >
             Furni<span>.</span>
           </NavLink>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import CrossImage from '../assets/images/cross.svg';
 import { useContext } from 'react';
 import { CartContext } from '../App';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ProductList = ({ products, HomePage }) => {
@@ -65,10 +65,10 @@ const ProductList = ({ products, HomePage }) => {
       } else {
         return (
           <div className="col-12 col-md-4 col-lg-3 mb-5" key={product.id}>
-            <a
+            <Link
               onClick={() => handleAddItem(product.id)}
               className="product-item"
-              href="#"
+              to=""
             >
               <img
                 src={product.photo}
@@ -80,7 +80,7 @@ const ProductList = ({ products, HomePage }) => {
               <span className="icon-cross">
                 <img src={CrossImage} alt="cross" className="img-fluid" />
               </span>
-            </a>
+            </Link>
           </div>
         );
       }

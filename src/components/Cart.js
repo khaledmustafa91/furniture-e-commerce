@@ -118,7 +118,7 @@ const Cart = () => {
                               </td>
                               <td>${item.price * item.quantity}</td>
                               <td>
-                                <a
+                                <Link
                                   onClick={() => {
                                     setCart(
                                       cart.filter((a) => a.id !== item.id)
@@ -127,7 +127,7 @@ const Cart = () => {
                                   className="btn btn-black btn-sm"
                                 >
                                   X
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                           );

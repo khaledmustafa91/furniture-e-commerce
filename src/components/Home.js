@@ -1,7 +1,3 @@
-import { Link } from 'react-router-dom';
-import couchImage from '../assets/images/couch.png';
-import CrossImage from '../assets/images/cross.svg';
-
 import { useEffect, useState } from 'react';
 import Help from './Home/Help';
 import WhyChooseUs from './Home/WhyChooseUs';

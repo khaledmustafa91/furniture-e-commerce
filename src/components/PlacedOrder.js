@@ -8,7 +8,7 @@ const PlacedOrder = () => {
   useEffect(() => {
     setCart([]);
     console.log('Clear cart');
-  }, []);
+  }, [setCart]);
   return (
     <>
       <div className="untree_co-section">

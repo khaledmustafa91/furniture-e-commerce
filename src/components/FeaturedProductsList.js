@@ -53,6 +53,7 @@ const FeaturedProductsList = () => {
                     <Link to="/cart" className="product-item">
                       <img
                         src={product.photo}
+                        alt={`product-${product.id}`}
                         className="img-fluid product-thumbnail"
                       />
                       <h3 className="product-title">Nordic Chair</h3>

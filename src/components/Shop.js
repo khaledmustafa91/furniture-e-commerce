@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ProductList from './ProductList';
 import Hero from './Shop/Hero';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Shop = () => {

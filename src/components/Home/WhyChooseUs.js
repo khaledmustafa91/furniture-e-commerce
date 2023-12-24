@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                 <div className="col-6 col-md-6">
                   <div className="feature">
                     <div className="icon">
-                      <img src={TruckImage} alt="Image" className="imf-fluid" />
+                      <img src={TruckImage} alt="truck" className="imf-fluid" />
                     </div>
                     <h3>Fast &amp; Free Shipping</h3>
                     <p>
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
                 <div className="col-6 col-md-6">
                   <div className="feature">
                     <div className="icon">
-                      <img src={BagImage} alt="Image" className="imf-fluid" />
+                      <img src={BagImage} alt="bag" className="imf-fluid" />
                     </div>
                     <h3>Easy to Shop</h3>
                     <p>
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
                     <div className="icon">
                       <img
                         src={SupportImage}
-                        alt="Image"
+                        alt="support"
                         className="imf-fluid"
                       />
                     </div>
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
                     <div className="icon">
                       <img
                         src={ReturnImage}
-                        alt="Image"
+                        alt="return"
                         className="imf-fluid"
                       />
                     </div>
@@ -78,7 +78,11 @@ const WhyChooseUs = () => {
             </div>
             <div className="col-lg-5">
               <div className="img-wrap">
-                <img src={whyChooseUsImage} alt="Image" className="img-fluid" />
+                <img
+                  src={whyChooseUsImage}
+                  alt="why_choose_us"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>

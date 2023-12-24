@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Team = () => {
   const [team, setTeam] = useState(null);
@@ -26,9 +27,13 @@ const Team = () => {
               team.map((person) => {
                 return (
                   <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <img src={person.photo} className="img-fluid mb-5" />
+                    <img
+                      src={person.photo}
+                      alt={`person-${person.id}`}
+                      className="img-fluid mb-5"
+                    />
                     <h3 clas="">
-                      <a href="#">{person.name}</a>
+                      <Link to="">{person.name}</Link>
                     </h3>
                     <span className="d-block position mb-4">
                       {person.position}
