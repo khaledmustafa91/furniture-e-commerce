@@ -7,14 +7,14 @@ const Footer = () => {
       <footer className="footer-section">
         <div className="container relative">
           <div className="sofa-img">
-            <img src={SofaImage} alt="Image" className="img-fluid" />
+            <img src={SofaImage} alt="sofa" className="img-fluid" />
           </div>
           <div className="row">
             <div className="col-lg-8">
               <div className="subscription-form">
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
-                    <i class="fa fa-newspaper" aria-hidden="true"></i>
+                    <i className="fa fa-newspaper" aria-hidden="true"></i>
                   </span>
                   <span>Subscribe to Newsletter</span>
                 </h3>
@@ -45,9 +45,9 @@ const Footer = () => {
           <div className="row g-5 mb-5">
             <div className="col-lg-4">
               <div className="mb-4 footer-logo-wrap">
-                <a href="#" className="footer-logo">
+                <Link className="footer-logo">
                   Furni<span>.</span>
-                </a>
+                </Link>
               </div>
               <p className="mb-4">
                 Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
@@ -57,24 +57,24 @@ const Footer = () => {
               </p>
               <ul className="list-unstyled custom-social">
                 <li>
-                  <a href="#">
+                  <Link>
                     <span className="fa fa-brands fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link>
                     <span className="fa fa-brands fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link>
                     <span className="fa fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link>
                     <span className="fa fa-brands fa-linkedin" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -100,42 +100,43 @@ const Footer = () => {
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Support</a>
+                      <Link to="">Support</Link>
+                      {/* <Link>Support</Link> */}
                     </li>
                     <li>
-                      <a href="#">Knowledge base</a>
+                      <Link to="">Knowledge base</Link>
                     </li>
                     <li>
-                      <a href="#">Live chat</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-6 col-sm-6 col-md-3">
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Jobs</a>
-                    </li>
-                    <li>
-                      <a href="#">Our team</a>
-                    </li>
-                    <li>
-                      <a href="#">Leadership</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
+                      <Link to="">Live chat</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Nordic Chair</a>
+                      <Link>Jobs</Link>
                     </li>
                     <li>
-                      <a href="#">Kruzo Aero</a>
+                      <Link>Our team</Link>
                     </li>
                     <li>
-                      <a href="#">Ergonomic Chair</a>
+                      <Link>Leadership</Link>
+                    </li>
+                    <li>
+                      <Link>Privacy Policy</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-6 col-sm-6 col-md-3">
+                  <ul className="list-unstyled">
+                    <li>
+                      <Link>Nordic Chair</Link>
+                    </li>
+                    <li>
+                      <Link>Kruzo Aero</Link>
+                    </li>
+                    <li>
+                      <Link>Ergonomic Chair</Link>
                     </li>
                   </ul>
                 </div>
@@ -146,19 +147,19 @@ const Footer = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <p className="mb-2 text-center text-lg-start">
-                  Copyright ©. All Rights Reserved. — Designed with love by{' '}
-                  <a href="https://untree.co">Untree.co</a> Distributed By{' '}
-                  <a hreff="https://themewagon.com">ThemeWagon</a>{' '}
+                  Copyright ©. All Rights Reserved. — Designed with love by
+                  <a href="https://untree.co">Untree.co</a> Distributed By
+                  <a href="https://themewagon.com">ThemeWagon</a>
                   {/* License information: https://untree.co/license/ */}
                 </p>
               </div>
               <div className="col-lg-6 text-center text-lg-end">
                 <ul className="list-unstyled d-inline-flex ms-auto">
                   <li className="me-4">
-                    <a href="#">Terms &amp; Conditions</a>
+                    <Link>Terms &amp; Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link>Privacy Policy</Link>
                   </li>
                 </ul>
               </div>
