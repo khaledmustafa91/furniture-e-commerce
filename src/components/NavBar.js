@@ -11,7 +11,11 @@ const NavBar = () => {
         arial-label="Furni navigation bar"
       >
         <div className="container">
-          <NavLink activeClassName="active" to="/" className="navbar-brand">
+          <NavLink
+            className={`nav-link navbar-brand ${(navData) =>
+              navData.isActive ? 'active-style' : 'none'}`}
+            to="/"
+          >
             Furni<span>.</span>
           </NavLink>
           <button
@@ -28,51 +32,55 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarsFurni">
             <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
               <li className="nav-item">
-                <NavLink activeClassName="active" to="/" className="nav-link">
+                <NavLink
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
+                  to="/"
+                >
                   Home
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/shop"
-                  className="nav-link"
                 >
                   Shop
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/about_us"
-                  className="nav-link"
                 >
                   About us
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/services"
-                  className="nav-link"
                 >
                   Services
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/blogs"
-                  className="nav-link"
                 >
                   Blog
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/contact_us"
-                  className="nav-link"
                 >
                   Contact us
                 </NavLink>
@@ -80,15 +88,19 @@ const NavBar = () => {
             </ul>
             <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
               <li>
-                <NavLink activeClassName="active" to="/" className="nav-link">
+                <NavLink
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
+                  to="/"
+                >
                   <img src={UserImage} alt="User" />
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  activeClassName="active"
+                  className={`nav-link ${(navData) =>
+                    navData.isActive ? 'active-style' : 'none'}`}
                   to="/cart"
-                  className="nav-link"
                 >
                   <img src={CartImage} alt="Cart" />
                 </NavLink>

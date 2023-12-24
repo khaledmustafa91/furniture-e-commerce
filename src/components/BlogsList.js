@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import MainHero from './MainHero';
+import { Link } from 'react-router-dom';
 
 const BlogsList = ({ blogs, class_properties }) => {
   return (
@@ -8,25 +7,25 @@ const BlogsList = ({ blogs, class_properties }) => {
       {blogs &&
         blogs.map((blog) => {
           return (
-            <div className={class_properties}>
+            <div className={class_properties} key={blog.id}>
               <div className="post-entry">
-                <a href="#" className="post-thumbnail">
+                <Link to="" className="post-thumbnail">
                   <img
                     src={blog.photo}
                     alt={`blog-${blog.id}`}
                     className="img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="post-content-entry">
                   <h3>
-                    <a href="#">{blog.title}</a>
+                    <Link to="">{blog.title}</Link>
                   </h3>
                   <div className="meta">
                     <span>
-                      by <a href="#">{blog.author}</a>
+                      by <Link to="">{blog.author}</Link>
                     </span>{' '}
                     <span>
-                      on <a href="#">{blog.date}</a>
+                      on <Link to="">{blog.date}</Link>
                     </span>
                   </div>
                 </div>

@@ -118,7 +118,7 @@ const ContactUs = () => {
                             required: 'Must be present',
                           })}
                         />
-                        <p class="text-danger">{errors.fname?.message}</p>
+                        <p className="text-danger">{errors.fname?.message}</p>
                       </div>
                     </div>
                     <div className="col-6">
@@ -134,7 +134,7 @@ const ContactUs = () => {
                             required: 'Must be present',
                           })}
                         />
-                        <p class="text-danger">{errors.lname?.message}</p>
+                        <p className="text-danger">{errors.lname?.message}</p>
                       </div>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ const ContactUs = () => {
                       className="form-control"
                       id="email"
                     />
-                    <p class="text-danger">{errors.email?.message}</p>
+                    <p className="text-danger">{errors.email?.message}</p>
                   </div>
                   <div className="form-group mb-5">
                     <label className="text-black" htmlFor="message">
@@ -166,7 +166,7 @@ const ContactUs = () => {
                       rows={5}
                       defaultValue={''}
                     />
-                    <p class="text-danger">{errors.message?.message}</p>
+                    <p className="text-danger">{errors.message?.message}</p>
                   </div>
                   <button
                     type="submit"

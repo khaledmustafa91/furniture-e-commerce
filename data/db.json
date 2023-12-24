@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Kruzo Aero Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 70,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
       "featured": true
     },  
@@ -21,7 +21,7 @@
       "id": 3,
       "title": "Ergonomic Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 80,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/rm2ecbamrwppokzoyazn.png",
       "featured": true
     },
@@ -29,7 +29,7 @@
       "id": 4,
       "title": "Nordic Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 105,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
       "featured": false
     },
@@ -37,7 +37,7 @@
       "id": 5,
       "title": "Kruzo Aero Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 200,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890763/Furniture-e-commerce/qm7has6njhbl7lwup4bt.png",
       "featured": false
     },
@@ -45,7 +45,7 @@
       "id": 6,
       "title": "Kruzo Aero Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 250,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
       "featured": false
     },  
@@ -53,7 +53,7 @@
       "id": 7,
       "title": "Ergonomic Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 75,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/rm2ecbamrwppokzoyazn.png",
       "featured": false
     },
@@ -61,7 +61,7 @@
       "id": 8,
       "title": "Nordic Chair",
       "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-      "price": 78,
+      "price": 99,
       "photo": "https://res.cloudinary.com/dg7tijq2w/image/upload/v1702890762/Furniture-e-commerce/pcbd1qxa4casxznyvcfl.png",
       "featured": false
     }
