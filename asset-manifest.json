@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/furniture-e-commerce/static/css/main.77db4256.css",
+    "main.js": "/furniture-e-commerce/static/js/main.f0868787.js",
+    "static/js/787.e4b699e8.chunk.js": "/furniture-e-commerce/static/js/787.e4b699e8.chunk.js",
+    "static/media/img-grid-1.jpg": "/furniture-e-commerce/static/media/img-grid-1.ad8ba13496a1834763e0.jpg",
+    "static/media/why-choose-us-img.jpg": "/furniture-e-commerce/static/media/why-choose-us-img.afb2571022e4d5a42915.jpg",
+    "static/media/couch.png": "/furniture-e-commerce/static/media/couch.7a344a6302c235396f60.png",
+    "static/media/sofa.png": "/furniture-e-commerce/static/media/sofa.86e59c0fb4f5199c977e.png",
+    "static/media/img-grid-3.jpg": "/furniture-e-commerce/static/media/img-grid-3.70252b841cf43ed93793.jpg",
+    "static/media/img-grid-2.jpg": "/furniture-e-commerce/static/media/img-grid-2.0ff4a802bbb7eb26cee1.jpg",
+    "static/media/dots-green.svg": "/furniture-e-commerce/static/media/dots-green.fc0a29ccdaf1ec80964e.svg",
+    "static/media/dots-yellow.svg": "/furniture-e-commerce/static/media/dots-yellow.bfc44818a1b6606dd7c1.svg",
+    "static/media/dots-light.svg": "/furniture-e-commerce/static/media/dots-light.e00bbd6fd2e7780c28c9.svg",
+    "index.html": "/furniture-e-commerce/index.html",
+    "static/media/support.svg": "/furniture-e-commerce/static/media/support.9d26dea71aab9142a5629d38f2287c2e.svg",
+    "static/media/truck.svg": "/furniture-e-commerce/static/media/truck.66e1c9ecc38ff585449d328dc23700fc.svg",
+    "static/media/cart.svg": "/furniture-e-commerce/static/media/cart.1634d36d55fedcb992d12b79bf27dddd.svg",
+    "static/media/return.svg": "/furniture-e-commerce/static/media/return.d5d64cfebfacde8f05fd6c4bb3b51521.svg",
+    "static/media/bag.svg": "/furniture-e-commerce/static/media/bag.32d7cc1dfb3dabdcef4ccc1966a6b994.svg",
+    "static/media/user.svg": "/furniture-e-commerce/static/media/user.7621a47e29a2c99048c21b2cf412c7c7.svg",
+    "static/media/cross.svg": "/furniture-e-commerce/static/media/cross.f55a0e29baa16101e78afdaa658f3afb.svg",
+    "main.77db4256.css.map": "/furniture-e-commerce/static/css/main.77db4256.css.map",
+    "main.f0868787.js.map": "/furniture-e-commerce/static/js/main.f0868787.js.map",
+    "787.e4b699e8.chunk.js.map": "/furniture-e-commerce/static/js/787.e4b699e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77db4256.css",
+    "static/js/main.f0868787.js"
+  ]
+}
