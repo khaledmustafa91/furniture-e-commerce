@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import ProductList from './ProductList';
 import Hero from './Shop/Hero';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Shop = () => {
   const [products, setProducts] = useState(null);
@@ -19,13 +21,25 @@ const Shop = () => {
   return (
     <>
       <Hero />
-      <div class="untree_co-section product-section before-footer-section">
-        <div class="container">
-          <div class="row">
+      <div className="untree_co-section product-section before-footer-section">
+        <div className="container">
+          <div className="row">
             <ProductList products={products} />
           </div>
         </div>
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </>
   );
 };
