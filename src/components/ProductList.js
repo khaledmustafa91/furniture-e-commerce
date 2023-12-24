@@ -52,7 +52,10 @@ const ProductList = ({ products, HomePage }) => {
     products.map((product) => {
       if (HomePage) {
         return (
-          <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div
+            className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0"
+            key={product.id}
+          >
             <h2 className="mb-4 section-title">{product.title}</h2>
             <p className="mb-4">{product.description}</p>
             <p>

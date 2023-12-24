@@ -26,7 +26,10 @@ const Team = () => {
             {team &&
               team.map((person) => {
                 return (
-                  <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                  <div
+                    className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0"
+                    key={person.id}
+                  >
                     <img
                       src={person.photo}
                       alt={`person-${person.id}`}

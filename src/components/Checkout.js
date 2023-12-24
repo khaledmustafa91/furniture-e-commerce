@@ -404,7 +404,7 @@ const Checkout = () => {
                         {cart &&
                           cart.map((item) => {
                             return (
-                              <tr>
+                              <tr key={item.id}>
                                 <td>
                                   {item.title}
                                   <strong className="mx-2">x</strong>

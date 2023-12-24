@@ -7,7 +7,7 @@ const BlogsList = ({ blogs, class_properties }) => {
       {blogs &&
         blogs.map((blog) => {
           return (
-            <div className={class_properties}>
+            <div className={class_properties} key={blog.id}>
               <div className="post-entry">
                 <Link to="" className="post-thumbnail">
                   <img
