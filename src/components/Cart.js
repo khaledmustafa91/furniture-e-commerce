@@ -16,7 +16,6 @@ const Cart = () => {
       }
       return item;
     });
-    console.log(newCart, 'NewCart');
     setCart(newCart);
   };
 
