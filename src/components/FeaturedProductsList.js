@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import CrossImage from '../assets/images/cross.svg';
 import { useEffect, useState } from 'react';
+import { API_BASE_URL } from '../utils/constants';
 
 const FeaturedProductsList = () => {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/products')
+    fetch(`${API_BASE_URL}/products`)
       .then((res) => {
         return res.json();
       })

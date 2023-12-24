@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import MainHero from './MainHero';
 import BlogsList from './BlogsList';
+import { API_BASE_URL } from '../utils/constants';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/blogs')
+    fetch(`${API_BASE_URL}/blogs`)
       .then((res) => {
         return res.json();
       })

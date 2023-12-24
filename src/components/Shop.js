@@ -3,11 +3,12 @@ import ProductList from './ProductList';
 import Hero from './Shop/Hero';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { API_BASE_URL } from '../utils/constants';
 
 const Shop = () => {
   const [products, setProducts] = useState(null);
   useEffect(() => {
-    fetch('http://localhost:4000/products')
+    fetch(`${API_BASE_URL}/products`)
       .then((res) => {
         return res.json();
       })

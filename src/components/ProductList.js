@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { CartContext } from '../App';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { API_BASE_URL } from '../utils/constants';
 
 const ProductList = ({ products, HomePage }) => {
   const { cart, setCart } = useContext(CartContext);
@@ -18,7 +19,7 @@ const ProductList = ({ products, HomePage }) => {
   };
 
   const handleAddItem = (product_id) => {
-    fetch(`http://localhost:4000/products/${product_id}`)
+    fetch(`${API_BASE_URL}/products/${product_id}`)
       .then((res) => res.json())
       .then((data) => {
         const old_item = cart.find((item) => item.id === product_id);

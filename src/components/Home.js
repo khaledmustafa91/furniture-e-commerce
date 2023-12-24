@@ -6,11 +6,12 @@ import MainHero from './MainHero';
 import FeaturedProductsList from './FeaturedProductsList';
 import FeaturedBlogs from './Home/FeaturedBlogs';
 import ProductList from './ProductList';
+import { API_BASE_URL } from '../utils/constants';
 const Home = () => {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/products')
+    fetch(`${API_BASE_URL}/products`)
       .then((res) => {
         return res.json();
       })

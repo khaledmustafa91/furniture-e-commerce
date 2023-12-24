@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import BlogsList from '../BlogsList';
+import { API_BASE_URL } from '../../utils/constants';
 
 const FeaturedBlogs = () => {
   const [blogs, setBlogs] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/blogs')
+    fetch(`${API_BASE_URL}/blogs`)
       .then((res) => {
         return res.json();
       })

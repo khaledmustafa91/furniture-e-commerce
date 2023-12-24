@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../../utils/constants';
 
 const Team = () => {
   const [team, setTeam] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/teams')
+    fetch(`${API_BASE_URL}/teams`)
       .then((res) => res.json())
       .then((team) => {
         setTeam(team);
