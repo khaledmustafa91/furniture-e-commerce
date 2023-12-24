@@ -18,7 +18,7 @@ function App() {
 
   return (
     <CartContext.Provider value={{ cart, setCart }}>
-      <Router>
+      <Router basename="/furniture-e-commerce">
         <div className="App">
           <NavBar />
           <Routes>
@@ -31,6 +31,7 @@ function App() {
             <Route exact path="/cart" element={<Cart />} />
             <Route exact path="/checkout" element={<Checkout />} />
             <Route exact path="/placed_order" element={<PlacedOrder />} />
+            <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
         </div>
